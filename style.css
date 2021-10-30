@@ -1,0 +1,28 @@
+.container{
+    margin: auto;
+    height: 95vh;
+    width: 95vw;
+    background-color: black;
+    border: 1vw solid black;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 1vw;
+    column-gap: 1vw;
+}
+
+.item1{
+    background-color:rgb(245, 198, 157);
+}
+
+.item2{
+    background-color: greenyellow;
+}
+
+.item1:hover{
+    background-color: rgb(240, 157, 85);;
+}
+
+.item2:hover{
+    background-color: rgb(139, 214, 27);
+}
